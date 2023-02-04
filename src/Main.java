@@ -5,14 +5,14 @@ public class Main {
         int creditCardBalance = 5000;
         System.out.print("What is the interest rate? ");
         double interestRate = .17;
-        int totalInterest;
-        int totalDue;
-        int monthlyPayment;
+        double totalInterest;
+        double totalDue;
+        double secondMonth;
         totalInterest = creditCardBalance * interestRate;
-        int monthPayment = 1;
-
-        if monthlyPayment < 5000 + monthPayment;
         totalDue = creditCardBalance + totalInterest;
+        System.out.print("This is how much you owe on the First month "+ totalDue);
+        secondMonth = totalDue * totalInterest;
+        System.out.print("Your total due on the second month is " + secondMonth);
 
 
     }
