@@ -13,11 +13,15 @@ public class Main {
             double interestRate = 0.17;
 
         totalInterest = creditCardBalance * interestRate; //Calculation the interest for the current balance
-            System.out.print("This is how much you owe on the First month " + totalDue);
-        totalDue = creditCardBalance + totalInterest; //Calculation if they user misses the first payment and has to pay more on the second month.
-            System.out.print("You have missed your second months payment ");
-        secondMonth = totalDue * totalInterest;
-            System.out.print("Your total due on the second month is " + secondMonth);
+                System.out.println("Your total interest for the first month is: " + totalInterest);
+
+
+        totalDue = creditCardBalance + totalInterest;//Calculation if they user misses the first payment and has to pay more on the second month.
+                System.out.println("This is how much you owe on the First month " + totalDue);
+                System.out.println("You have missed your second months payment ");
+
+        secondMonth = totalDue * totalInterest; // What the user has to pay at the second month
+               System.out.println("Your total due on the second month is " + secondMonth);
 
 
     }
